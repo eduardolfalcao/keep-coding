@@ -22,7 +22,7 @@
 
 In some cases, depending on platform, long long can be wider than just long.
 
-If you need a specific integer size for a particular application, rather than trusting the compiler to pick the size you want, #include <stdint.h> (or <cstdint>) so you can use these types:
+If you need a specific integer size for a particular application, rather than trusting the compiler to pick the size you want, #include <stdint.h> (or \<cstdint\>) so you can use these types:
  - int8_t and uint8_t
  - int16_t and uint16_t
  - int32_t and uint32_t
