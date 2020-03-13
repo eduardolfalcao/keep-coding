@@ -14,10 +14,10 @@ Stacks are dynamic data structures that follow the **Last In First Out (LIFO)** 
 
 ## Operations
 
-**push():** Insert element at the top of a stack.
-**pop():** Removes an element from the top of a stack.
-**top():** Access the top element of a stack.
-**empty():** Check whether a stack is empty.
+**push():** Insert element at the top of a stack.  
+**pop():** Removes an element from the top of a stack.  
+**top():** Access the top element of a stack.  
+**empty():** Check whether a stack is empty.  
 **size():** Determines the current size of a stack.
 
 #### C++11
