@@ -21,7 +21,7 @@ Stacks are dynamic data structures that follow the **Last In First Out (LIFO)** 
 **size():** Determines the current size of a stack.
 
 #### C++11
-**swap():** Exchanges the contents of stack with contents of another stack.
+**swap():** Exchanges the contents of stack with contents of another stack.  
 **emplace():** Constructs and inserts new element at the top of stack.
 
 ## Sample code
