@@ -42,6 +42,6 @@ Both implementations belongs to the standard library.
 
 [Maps documentation reference](http://www.cplusplus.com/reference/map/map/)
 
-[Code with example of Maps](source/Maps.cpp)
+[Code with example of Maps](../source/Maps.cpp)
 
 [Info of Corona Virus used in example (may be outdated)](https://www.worldometers.info/coronavirus/)
