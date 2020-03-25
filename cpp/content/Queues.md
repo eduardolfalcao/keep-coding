@@ -4,9 +4,11 @@ Queues are data structures that follow the **First In First Out (FIFO)** princip
 
 ## Example
 
-![alt text](https://he-s3.s3.amazonaws.com/media/uploads/cf1e1c1.png)
+<p align="center">
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/cf1e1c1.png">
+</p>
 
-## Include stack library
+## Include queue library
 
 ```cpp
 #include <queue>
@@ -133,3 +135,18 @@ Contents of queue q3 after swap operation:
 Testing operator emplace():
 10 11 12 
 ```
+
+## Problems
+
+**URI** - [Jogando Cartas Fora](https://www.urionlinejudge.com.br/judge/pt/problems/view/1110)  
+**URI** - [Fila](https://www.urionlinejudge.com.br/judge/pt/problems/view/2460)  
+**HackerEarth** - [Micro and Queue](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/algorithm/micro-and-queuequeue-tutorial/)  
+**HackerEarth** - [Little Monk and Goblet of Fire](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/algorithm/little-monk-and-goblet-of-fire/)  
+**HackerEarth** - [Monk and Chamber of Secrets](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/algorithm/monk-and-chamber-of-secrets/)  
+
+## References
+
+[HackerEarth - Basics of Queues](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/)  
+[Tutorials Point - C++ Library - < queue >](https://www.tutorialspoint.com/cpp_standard_library/queue.htm)  
+[C++ - Queue](http://www.cplusplus.com/reference/queue/queue/)  
+[URI Online Judge](https://www.urionlinejudge.com.br/judge/pt)  
