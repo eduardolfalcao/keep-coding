@@ -4,7 +4,9 @@ Stacks are dynamic data structures that follow the **Last In First Out (LIFO)** 
 
 ## Example
 
-![alt text](https://he-s3.s3.amazonaws.com/media/uploads/9a74c87.png)
+<p align="center">
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/9a74c87.png">
+</p>
 
 ## Include stack library
 
@@ -126,3 +128,21 @@ Contents of stack s3 after swap operation:
 Testing operator emplace():
 12 11 10 
 ```
+
+## Problems
+
+**URI** - [Balanço de Parênteses I](https://www.urionlinejudge.com.br/judge/pt/problems/view/1068)  
+**URI** - [Trilhos](https://www.urionlinejudge.com.br/judge/pt/problems/view/1062)  
+**URI** - [Diamantes e Areia](https://www.urionlinejudge.com.br/judge/pt/problems/view/1069)  
+**URI** - [BRINDE FACE 2015](https://www.urionlinejudge.com.br/judge/pt/problems/view/1944)  
+**URI** - [Infixa para Posfixa](https://www.urionlinejudge.com.br/judge/pt/problems/view/1077)  
+**URI** - [Trilhos Novamente... Traçando Movimentos](https://www.urionlinejudge.com.br/judge/pt/problems/view/1063)  
+**HackerEarth** - [Little Monk and Balanced Parentheses](https://www.hackerearth.com/pt-br/practice/data-structures/stacks/basics-of-stacks/practice-problems/algorithm/little-monk-and-balanced-parentheses/)  
+**HackerEarth** - [Monk and Prisoner of Azkaban](https://www.hackerearth.com/pt-br/practice/data-structures/stacks/basics-of-stacks/practice-problems/algorithm/monk-and-prisoner-of-azkaban/)  
+
+## References
+
+[HackerEarth - Basics of Stacks](https://www.hackerearth.com/pt-br/practice/data-structures/stacks/basics-of-stacks/tutorial/)  
+[Tutorials Point - C++ Library - < stack >](https://www.tutorialspoint.com/cpp_standard_library/stack.htm)  
+[C++ - Stack](http://www.cplusplus.com/reference/stack/stack/)  
+[URI Online Judge](https://www.urionlinejudge.com.br/judge/pt)  
