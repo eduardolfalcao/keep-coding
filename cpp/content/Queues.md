@@ -18,7 +18,7 @@ Queues are data structures that follow the **First In First Out (FIFO)** princip
 
 **push():** Insert element at the last of a queue.  
 **pop():** Removes an element from the front of a queue.  
-**front():** Access the front element of a queue.
+**front():** Access the front element of a queue.  
 **back():** Access the last element of a queue.  
 **empty():** Check whether a queue is empty.  
 **size():** Determines the current size of a queue.
