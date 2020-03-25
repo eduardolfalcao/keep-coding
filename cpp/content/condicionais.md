@@ -1,16 +1,18 @@
 ## Estruturas Condicionais
-### Todas as linguagens de programação oferecem comandos para o desvio condicional. O mais simples é a sentença if. Em C++ , ele tem o formato:
+
+Todas as linguagens de programação oferecem comandos para o desvio condicional. O mais simples é a sentença if. Em C++ , ele tem o formato:
+
 ```c++
  if (expressao) {
      corpododesvio
 }
 ```
-### O corpo do desvio, por sua vez, pode ser uma sentença simples ou composta (veja Seção 1.1). Quando uma sentença if é encontrada em um programa, 
+
+O corpo do desvio, por sua vez, pode ser uma sentença simples ou composta (veja Seção 1.1). Quando uma sentença if é encontrada em um programa, 
 
 
-#### - O teste na expressão em parênteses é avaliada. 
-
-#### - Se o valor da expressão de teste for DIFERENTE de zero (ou FALSE), as sentenças que compõem o corpo do desvio que segue a expressão de teste são executadas.
+- O teste na expressão em parênteses é avaliada. 
+- Se o valor da expressão de teste for DIFERENTE de zero (ou FALSE), as sentenças que compõem o corpo do desvio que segue a expressão de teste são executadas.
 
 ```c++
 #include <iostream>
@@ -23,7 +25,7 @@ int main( ) {
         cout << "A fracao em decimal eh " << 1.0 * a / b << endl;
 }
 ```
-### O formato do if-else é:
+O formato do if-else é:
 ```c++
     if (expressao)
         sentenca1
@@ -49,10 +51,11 @@ int main( ) {
 }
 ```
 
-### Alternar instrução em C / C ++
-#### As instruções de alternância de caso substituem as instruções if que comparam uma variável a vários valores integrais
-#### A instrução switch é uma instrução de filial múltipla. Ele fornece uma maneira fácil de despachar a execução para diferentes partes do código com base no valor da expressão.
-### Switch é uma instrução de controle que permite que um valor altere o controle de execução.
+## Alternar instrução em C / C ++
+
+As instruções de alternância de caso substituem as instruções if que comparam uma variável a vários valores integrais
+A instrução switch é uma instrução de filial múltipla. Ele fornece uma maneira fácil de despachar a execução para diferentes partes do código com base no valor da expressão.
+Switch é uma instrução de controle que permite que um valor altere o controle de execução.
 ![switch](https://user-images.githubusercontent.com/56180762/77486812-75e92580-6e0f-11ea-8b9e-fd2eb2252172.png)
 
 ```c++
