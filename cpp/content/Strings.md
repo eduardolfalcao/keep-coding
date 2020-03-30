@@ -31,8 +31,8 @@ The string class is an instantiation of the basic_string class template that use
 
 **cbegin():** Return const_iterator to beginning.  
 **cend():** Return const_iterator to end.  
-**crbegin():** Return const_reverse_iterator to reverse beginning.
-**crend():** Return const_reverse_iterator to reverse end.
+**crbegin():** Return const_reverse_iterator to reverse beginning.  
+**crend():** Return const_reverse_iterator to reverse end.  
 
 ### Capacity:
 
@@ -65,7 +65,7 @@ The string class is an instantiation of the basic_string class template that use
 **append():** Append to string.  
 **push_back():** Append character to string.  
 **assign():** Assign content to string.  
-**insert():** Insert into string.
+**insert():** Insert into string.  
 **erase():** Erase characters from string.  
 **replace():** Replace portion of string.  
 **swap():** Swap string values.  
@@ -84,7 +84,7 @@ The string class is an instantiation of the basic_string class template that use
 **rfind():** Find last occurrence of content in string.  
 **find_first_of():** Find character in string.  
 **find_last_of():** Find character in string from the end.  
-**find_first_not_of():** Find absence of character in string.
+**find_first_not_of():** Find absence of character in string.  
 **find_last_not_of():** Find non-matching character in string from the end.  
 **substr():** Generate substring.  
 **compare():** Compare strings.  
