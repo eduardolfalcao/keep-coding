@@ -1,84 +1,121 @@
 ## Estruturas Condicionais
 
-Todas as linguagens de programação oferecem comandos para o desvio condicional. O mais simples é a sentença if. Em C++ , ele tem o formato:
+O C ++ suporta as condições lógicas usuais da matemática:
 
+1. Menor que: a <b
+2. Menor ou igual a: a <= b
+3. Maior que: a> b
+4. Maior ou igual a: a> = b
+5. Igual a a == b
+6. Não é igual a: a! = B
+
+C ++ possui as seguintes instruções condicionais:
+
+Use **if** para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
+Use **else** para especificar um bloco de código a ser executado, se a mesma condição for falsa
+Use **else if** para especificar uma nova condição para testar, se a primeira condição for falsa
+Use **switch** para especificar muitos blocos alternativos de código a serem executados
+
+Use a instrução **if** para especificar um bloco de código C ++ a ser executado se uma condição for true.
+
+*Exemplo*
 ```c++
- if (expressao) {
-     corpododesvio
+if (20 > 18) {
+  cout << "20 is greater than 18";
 }
 ```
 
-O corpo do desvio, por sua vez, pode ser uma sentença simples ou composta (veja Seção 1.1). Quando uma sentença if é encontrada em um programa, 
+Use a instrução **else** para especificar um bloco de código a ser executado se a condição for false.
 
-
-- O teste na expressão em parênteses é avaliada. 
-- Se o valor da expressão de teste for DIFERENTE de zero (ou FALSE), as sentenças que compõem o corpo do desvio que segue a expressão de teste são executadas.
-
+*Exemplo*
 ```c++
-#include <iostream>
-using namespace std;
-int main( ) {
-    int a, b;
-    cout << "Entre com uma fracao (numerador e denominador): ";
-    cin >> a >> b;
-    if (b != 0)
-        cout << "A fracao em decimal eh " << 1.0 * a / b << endl;
+int time = 20;
+if (time < 18) {
+  cout << "Good day.";
+} else {
+  cout << "Good evening.";
 }
 ```
-O formato do if-else é:
+// Outputs "Good evening."
+
+
+Use a instrução **else if** para especificar uma nova condição se a primeira condição for false.
+
+*Exemplo*
 ```c++
-    if (expressao)
-        sentenca1
-    else
-        sentenca2
+int time = 22;
+if (time < 10) {
+  cout << "Good morning.";
+} else if (time < 20) {
+  cout << "Good day.";
+} else {
+  cout << "Good evening.";
+}
+// Outputs "Good evening."
 ```
 
-```c++
-#include <iostream>
+Também existe o operador ternário, que consiste em três operandos. Pode ser usado para substituir várias linhas de código por uma única linha. É frequentemente usado para substituir instruções if if else simples:
 
-using namespace std;
-int main( ) {
-    int num;
-   // obtem um numero do usuario
-   cout << "Entre com um inteiro: ";
-   cin >> num;
-   // imprime uma mensagem dizendo se o numero e par ou impar
-   if (num % 2 == 0) {
-       cout << "O numero eh par.\n";
-  } else {
-       cout << "O numero eh impar.\n";
-  }     
+*Sintaxe*
+```c++
+variable = (condition) ? expressionTrue : expressionFalse;
+```
+
+*Exemplo*
+```c++
+int time = 20;
+string result = (time < 18) ? "Good day." : "Good evening.";
+cout << result;
+```
+
+Use a instrução **switch** para selecionar um dos muitos blocos de código a serem executados.
+
+*Sintaxe*
+
+```c++
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
 }
 ```
 
-## Alternar instrução em C / C ++
+É assim que funciona:
 
-As instruções de alternância de caso substituem as instruções if que comparam uma variável a vários valores integrais
-A instrução switch é uma instrução de filial múltipla. Ele fornece uma maneira fácil de despachar a execução para diferentes partes do código com base no valor da expressão.
-Switch é uma instrução de controle que permite que um valor altere o controle de execução.
-![switch](https://user-images.githubusercontent.com/56180762/77486812-75e92580-6e0f-11ea-8b9e-fd2eb2252172.png)
+1. A expressão **switch** é avaliada uma vez
+2. O valor da expressão é comparado com os valores de cada case
+3. Se houver uma correspondência, o bloco de código associado será executado
 
+*Exemplo*
 ```c++
-include <iostream> 
-using namespace std; 
-  
-int main() { 
-int x = 2; 
-    switch (x) 
-    { 
-        case 1:  
-            cout << "Choice is 1"; 
-            break; 
-        case 2:  
-            cout << "Choice is 2"; 
-            break; 
-        case 3:  
-            cout << "Choice is 3"; 
-            break; 
-        default:  
-            cout << "Choice other than 1, 2 and 3"; 
-            break;   
-    } 
-return 0; 
+int day = 4;
+switch (day) {
+  case 1:
+    cout << "Monday";
+    break;
+  case 2:
+    cout << "Tuesday";
+    break;
+  case 3:
+    cout << "Wednesday";
+    break;
+  case 4:
+    cout << "Thursday";
+    break;
+  case 5:
+    cout << "Friday";
+    break;
+  case 6:
+    cout << "Saturday";
+    break;
+  case 7:
+    cout << "Sunday";
+    break;
 }
+// Outputs "Thursday" (day 4)
 ```
