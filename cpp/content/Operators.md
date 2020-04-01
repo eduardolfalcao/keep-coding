@@ -9,7 +9,7 @@ Operator precedence Specifies the order of operations in expressions that contai
 * **-=** Subtracts the left operand with the right value and assigns it to the left operand <br />
 * ***=** Multiplies the left operand with the right value and assigns it to the left operand <br />
 * **/=** Divide the left operand with the right value and assign it to the left operand <br />
-* **%=** Extrai o modulo do operando da esquerda com o resultado do valor da direita e atribui ao operando da esquerda <br />
+* **%=** Extract the left operand module with the result of the right value and assign it to the left operand <br />
 
 
 # Arithmetic Operators
@@ -29,11 +29,21 @@ Operator precedence Specifies the order of operations in expressions that contai
 * **<=** Compare the size of the left operand with the size of the right (less than or equal to) <br />
 
 
-# Operadores Logicos
+# Logical Operators
 
 * **&&** Logical operator that compares the value on the left with the value on the right (E) (Conjunction) <br />
 * **||** Logical operator that compares the value on the left with the value on the right (OU) (DISJUNCTION) <br />
 * **!** Logical operator that inverts the logical value of the logical operation. If the operation is false it inverts to true <br />
+
+
+# Binary operators
+
+* **&** AND biary 
+* **|** OR Binary 
+* **^** XOR Binary 
+* **~** NOT Binary
+* **<<** Bit shift to the left
+* **>>** Bit shift to the right
 
 
 ## Sample code
@@ -82,8 +92,38 @@ int main() {
         cout<< "a is greater than and is greater than or equal to c or b is less than or equal to c" << "\n";
     }
     if(!(a==c)){
-        cout<< "a não é igual a c " << "\n"
+        cout<< "a is not equal to c " << "\n"
     }
 
     return 0;
+}
+
+
+```cpp
+
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main() {
+    int main() {
+    bitset<8> a, b;
+    a = 00000001;
+    a= a << 1;
+
+    cout << a << "\n";// = 00000010
+
+    a = a >> 1 ;
+
+    cout << a << "\n";// = 00000001
+
+    bitset<1> c, d, e;
+    c = 1;
+    d = 0;
+    e = c | d; // e = 1
+
+    e = c & d; // e = 0
+
+    e = c ^ d; // e = 1
+
 }
